@@ -1,3 +1,11 @@
 export function coinCounter(usd) {
-  return "I don't know how to do this yet";
-}
+  if (isNaN(usd)) {
+    return "Please enter a valid numerical value";
+  } else {
+    
+  
+  
+  
+    return "I don't know how to do this yet";
+  }
+} 
