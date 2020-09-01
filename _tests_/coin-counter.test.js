@@ -12,6 +12,6 @@ describe('coinCounter', () => {
   });
   
   test('will return a message if input is a fraction of change', () => {
-    expect(coinCounter(1.678)).toEqual("Please only use proper coin amounts.");
+    expect(coinCounter(1.687)).toEqual("Please only use proper coin amounts.");
   });
 });
